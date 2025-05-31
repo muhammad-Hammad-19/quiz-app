@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz applications</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="st-heading">
+      <h1 style="color: #fff">quiz application</h1>
+      <button id="start" onclick="start()">start</button>
+    </div>
+    <div class="main">
+      <div class="timer-div">
+        <h1 id="timer">0</h1>
+      </div>
+      <div class="heading-div">
+        <h1 id="heading"></h1>
+      </div>
+      <div class="inp-1">
+        <input onclick="clicked()" type="radio" value="a" name="option" id="" />
+        <label for="" id="q-1"></label><br />
+      </div>
+      <div class="inp-1">
+        <input onclick="clicked()" type="radio" value="b" name="option" id="" />
+        <label for="" id="q-2"></label><br />
+      </div>
+      <div class="inp-1">
+        <input onclick="clicked()" type="radio" value="c" name="option" id="" />
+        <label for="" id="q-3"></label><br />
+      </div>
+      <div class="inp-1">
+        <input onclick="clicked()" type="radio" value="d" name="option" id="" />
+        <label for="" id="q-4"></label><br /><br />
+      </div>
+      <div class="click-btn">
+        <button id="click" onclick="nextClick()">next</button>
+      </div>
+    </div>
+    <h1 id="sc" style="text-align: center"></h1>
+    <script src="./quiz.js"></script>
+  </body>
+</html>

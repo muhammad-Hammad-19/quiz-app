@@ -1,0 +1,129 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+label {
+  color: #333;
+}
+
+#heading {
+  font-size: 30px;
+  color: #652e9b;
+  font-weight: bold;
+}
+
+label {
+  font-size: 16px;
+}
+#heading {
+  font-size: 30px;
+}
+#timer {
+  text-align: center;
+}
+body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #b8c5ff, #652e9b);
+}
+#click {
+  text-transform: capitalize;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #652e9b;
+  border: 1px solid black;
+  padding: 10px 50px;
+}
+.st-heading {
+  text-transform: capitalize;
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#start {
+  text-transform: capitalize;
+  font-size: medium;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #652e9b;
+  border: 1px solid black;
+  padding: 10px 50px;
+}
+.main {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 2px;
+  height: 353px;
+  width: 550px;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+}
+.click-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 550px) {
+  #heading {
+    font-size: 23px;
+  }
+  #timer {
+    text-align: center;
+  }
+  #start {
+    text-transform: capitalize;
+    font-size: medium;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #652e9b;
+    border: 1px solid black;
+    padding: 10px 50px;
+  }
+  .main {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 2px;
+    height: 353px;
+    width: 300px;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    gap: 13px;
+    background-color: white;
+  }
+  .click-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #click {
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+}
+#sc {
+  background-color: #fff;
+  color: #652e9b;
+  border: 2px solid #652e9b;
+  border-radius: 10px;
+  padding: 20px;
+  display: none;
+  width: fit-content;
+  margin: 20px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  font-weight: bold;
+}
